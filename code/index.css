@@ -1,0 +1,168 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+ *{
+     margin: 0px;
+ }
+
+body{
+    font-family: 'Roboto Slab';
+}
+.container{
+    width:1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height:100%
+    
+}
+header{
+    height:113px;
+    width:100%;
+   
+}
+.top{
+    background: #722b78;
+    width:100%;
+ 
+    
+}
+ #logo{
+    padding:10px;
+    margin-left:228px;
+} 
+.navi{
+    height: 44px;
+    background: #e7e7e7;
+     width:100%;
+     padding-left:185px;
+}
+li{
+    list-style: none;
+    display:inline-block;
+    font-size:14px;
+    padding:10px;
+    
+   
+}
+.middlemain{
+    height:310px;
+  
+}
+#uli{
+    
+    height:98px;
+  
+  
+}
+
+.mm1{
+    width:718px;
+    display:inline-block;
+}
+.mm1 li{
+    font-size: 24px;
+    font-weight: 700;
+    color: #7a3f75;
+    padding: 35px auto 41px;
+ 
+   
+
+}
+.p1{
+    color: #777;
+    font-weight:bold;
+    margin-bottom: 31px;
+    padding-left:45px;
+    font-size:16px;
+}
+.p2{
+    color: #777;
+    margin-bottom: 59px;
+    padding-left:45px;
+    font-size:16px;
+
+
+}
+
+.mm2{
+    float:right;
+    margin-top:92px;
+    padding-left:-90px;
+}
+.mm31,.mm32,.mm41,.mm42{
+    padding-top:20px;
+    padding-left:45px;
+    font:16px;
+    width:354px;
+    height:438px;
+    height:198px;
+    color:#545454;
+    background: #e7e7e7;
+   
+}
+.mp1,.mp2,.mp3,.mp4{
+    display:inline-block;
+    width:200px;
+    padding-top:10px;
+    font:14px;
+}
+
+
+#img2,#img3,#img3,#img4{
+    float:right;
+    width:150px;
+    
+}
+
+.mm3,.mm4{
+    width:820px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.middlemainb{
+    display:inline-block;
+
+} 
+.side{
+
+    background: #7a3f75;
+    width:244px;
+     height:446px;
+    /* CODE CHANGE */
+    float:right; 
+ }
+ 
+  /* .overall{
+      display: inline;
+}   */
+.align-left {
+    float: left;
+}
+.sidec{
+  padding: 20px 0 0 20px;
+  color:White;
+}
+#sideheading{
+    font-size:16px;
+    margin:10px;
+}
+
+#sidepara{
+    font-size: 12px;
+    width:194px;
+    margin:10px;
+}
+
+#inp, #pp{
+    margin-bottom:10px;
+}
+
+button{
+    background:orange;
+    margin:15px 0;;
+}
+.foot{
+     margin-top: 50px;; 
+    margin-left: 160px;
+}
