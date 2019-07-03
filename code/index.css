@@ -11,12 +11,12 @@ body{
     width:1140px;
     padding: 0 15px;
     margin: 0 auto;
-    height:100%
+  
     
 }
 header{
     height:113px;
-    width:100%;
+    width:100%
    
 }
 .top{
@@ -27,13 +27,13 @@ header{
 }
  #logo{
     padding:10px;
-    margin-left:228px;
+   margin-left:35px;
 } 
 .navi{
     height: 44px;
     background: #e7e7e7;
      width:100%;
-     padding-left:185px;
+    
 }
 li{
     list-style: none;
@@ -43,11 +43,15 @@ li{
     
    
 }
+figcaption{
+    color:#722b78;
+    text-align:center;
+}
 .middlemain{
     height:310px;
   
 }
-#uli{
+#uli2{
     
     height:98px;
   
@@ -103,7 +107,7 @@ li{
     display:inline-block;
     width:200px;
     padding-top:10px;
-    font:14px;
+    font-size:13px;
 }
 
 
@@ -158,11 +162,37 @@ li{
     margin-bottom:10px;
 }
 
-button{
-    background:orange;
-    margin:15px 0;;
+#button1{
+    background:#d07312;
+    margin:15px 0;
+    border:none;
+    color: white;
+    padding:5px;
 }
-.foot{
-     margin-top: 50px;; 
-    margin-left: 160px;
+ .foot{
+     /* display:inline-block; */
+     float:left;
+      
+  
+} 
+#btna{
+    margin-top:50px;
+    font-size:15px;
+    background-color: #d07312;
+    border:none;
+    color: white;
+    padding:5px;
+}
+
+#btnb{
+    font-size:15px;
+    background-color: #d07312;
+    border:none;
+    color: white;
+    margin-top:30px;
+    padding:5px;
+
+}
+#f1{
+    float:right;
 }
